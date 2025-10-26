@@ -49,11 +49,11 @@ export default function Home() {
         />
 
         <div className={`form absolute max-w-[800px] text-md p-10 ${mailSrc === 'mail_opened.png' ? '' : 'hidden'}`}>
-          <h4>Dear, Bonnie</h4>
+          <h4>Dear, Shanika</h4>
           <br />
           <h4>Will you be my valentine?</h4>
           <br />
-          <h4>Love, Avent</h4>
+          <h4>Love, Shaylin</h4>
           <div className='yesno'>
             <a 
               className='yes relative z-10'
@@ -78,10 +78,10 @@ export default function Home() {
       </>
       :
       <div className='text-center flex flex-col items-center'>
-        <h4>Yay! See you this weekend!</h4>
+        <h4>YAYYY! I Love You Lots Pots!</h4>
         <br />
         <img width={150} src="sugarcubs-sugar.gif"/>
-        <h5>Muah muah!</h5>
+        <h5>Mwah mwah Bestie Pops!</h5>
 
       </div>
       }
